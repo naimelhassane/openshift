@@ -1,7 +1,6 @@
-FROM ubuntu
-RUN  apt install apt-transport-https
+FROM ubuntu:16.04
 RUN apt update
-RUN apt install python3 python3-pip
+RUN apt install python python-pip
 RUN pip3 install flask
 
 COPY app.py /opt/
