@@ -5,7 +5,7 @@ RUN mkdir /opt/flask_app
 COPY app.py /opt/flask_app
 WORKDIR /opt/flask_app
 RUN python3 -m venv venv
-RUN source venv/bin/activate
+RUN . venv/bin/activate
 RUN pip install Flask
 
 
