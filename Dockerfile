@@ -1,5 +1,6 @@
 FROM ubuntu
-RUN apt update  && apt install apt-transport-https
+RUN  apt install apt-transport-https
+RUN apt update
 RUN apt install python3 python3-pip
 RUN pip3 install flask
 
