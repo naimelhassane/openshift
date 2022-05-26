@@ -1,5 +1,5 @@
 FROM ubuntu
-RUN apt update && apt upgrade -y
+RUN apt update
 RUN apt install python3 python3-pip
 RUN pip3 install flask
 
