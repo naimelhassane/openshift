@@ -1,7 +1,7 @@
 FROM ubuntu:16.04
-RUN apt update
-RUN apt install python python-pip
-RUN pip3 install flask
+RUN apt -y update
+RUN apt install -y python python-pip
+RUN pip install flask
 
 COPY app.py /opt/
 
