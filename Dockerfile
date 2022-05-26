@@ -1,4 +1,4 @@
-FROM ubuntu:20.04
+FROM ubuntu
 RUN  apt install apt-transport-https
 RUN apt update
 RUN apt install python3 python3-pip
