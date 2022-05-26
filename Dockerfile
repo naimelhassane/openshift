@@ -10,4 +10,4 @@ RUN pip3 install Flask
 
 
 
-ENTRYPOINT FLASK_APP=/opt/app.py flask run --host=0.0.0.0
+ENTRYPOINT FLASK_APP=/opt/flask_app/app.py flask run --host=0.0.0.0
