@@ -9,7 +9,7 @@ def main():
     return "welcome !"
 
 
-@app.route("/how are you ?")
+@app.route("/aaa")
 def hello():
     return "I am good, how about you ?"
 
